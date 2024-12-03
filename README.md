@@ -1,6 +1,6 @@
-# Task Manager API
+# Tache
 
-Cette application Symfony permet de gérer des tâches via une API REST. Les données sont stockées dans un fichier JSON.
+-
 
 ## Fonctionnalités
 - **Lister les tâches** : `GET /tasks`
@@ -9,13 +9,13 @@ Cette application Symfony permet de gérer des tâches via une API REST. Les don
 ## Installation
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/ton_nom/task-manager-api.git
+   git clone https://github.com/V-What/Rendu_03_12_24.git
    ```
 2. Installez les dépendances avec Composer :
    ```bash
    composer install
    ```
-3. Lancez le serveur Symfony intégré ou configurez Apache :
+3. Lancez le serveur Symfony (PHP) :
    ```bash
    php -S 127.0.0.1:8000 -t public
    ```
