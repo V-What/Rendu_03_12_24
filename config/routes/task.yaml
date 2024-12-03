@@ -1,0 +1,9 @@
+task_list:
+    path: /tasks
+    controller: App\Controller\TaskController::list
+    methods: GET
+
+task_create:
+    path: /tasks
+    controller: App\Controller\TaskController::create
+    methods: POST
